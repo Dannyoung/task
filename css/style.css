@@ -1,0 +1,355 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+.wrap{
+	background-color: #e8e8e8;
+	width:1280px;
+}
+.container{
+	background-color: #e8e8e8;
+	width: 1280px;
+}
+.header{
+	margin-top: 0px;
+	padding-top: 5px;
+	width: 1280px;
+	height: 62px;
+	background-color: #000000;
+}
+.title{
+	float: left;
+	color: #ffffff;
+	margin-left: 30px;
+	margin-top: 5px;
+	width: 70px;
+	/*font-family: "微软雅黑";*/
+}
+.guide{
+	margin-top: 12px;
+	float: right;
+}
+.guide li{
+	color: #ffffff;
+	float: left;
+	width: 65px;
+}
+.guide a{
+	text-decoration: none;
+	color: #ffffff;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+}
+.guide a:link{
+	text-decoration: none;
+}
+.guide a:visited{
+	text-decoration: none;
+}
+.guide a:hover{
+	text-decoration: none;
+	color: #0000ff;
+}
+.guide a:active{
+	text-decoration: none;
+	color: #0000ff;
+}
+div .article1{
+	margin:20px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.article1 h1{
+	margin-left: 5px;
+	padding-left: 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 20px;
+}
+.article1 h2{
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-left: 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+	color: #585858;
+}
+.article1 span{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 12px;
+	color: #585858;
+}
+.article1 p{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+	color: #000000;
+	text-indent: 2em;
+	line-height: 30px;
+}
+.article1 img{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+}
+div .article2{
+	margin:20px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.article2 h1{
+	margin-left: 5px;
+	padding-left: 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 20px;
+}
+.article2 h2{
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-left: 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+	color: #585858;
+}
+.article2 span{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 12px;
+	color: #585858;
+}
+.article2 p{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+	color: #000000;
+	text-indent: 2em;
+	line-height: 30px
+}
+.article2 img{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+}
+.article2 #list{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	list-style: none;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+}
+.images #imagelist li{
+	margin: 20px;
+	padding: 10px;
+	list-style: none;
+	border:1px solid ;
+	width: 201px;
+	height: 201px;
+}
+.images #imagelist span{
+	position: relative;
+	left: 60px;
+	top: 5px;
+	/*font-family: "微软雅黑";*/
+	font-size:14px;
+
+}
+.images #imagelist img{
+	float: right;
+	padding-right: 10px;
+	top:2px;
+}
+div .article3{
+	margin:20px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.article3 h1{
+	margin: 5px;
+	padding: 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 20px;
+}
+.article3 h2{
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-left: 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+	color: #585858;
+}
+.article3 span{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 12px;
+	color: #585858;
+}
+.article3 p{
+	margin: 10px 0px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	/*font-family: "微软雅黑";*/
+	font-size: 16px;
+	color: #000000;
+	line-height: 30px
+}
+.article3 table{
+	margin: 10px 0px 0px 10px;
+	padding: 0px;
+	border-collapse: collapse;
+	width: 1080px;
+	/*font-family: "微软雅黑";*/
+	font-size: 14px;
+	border-color:#dedede;
+}
+.article3 tr td{
+	margin-left: 10px;
+	padding-left: 5px;
+}
+.article3 #title th{
+	padding-left: 5px;
+	background-color: #333333;
+	color:#ffffff;
+	text-align: left;
+}
+.article3 #total {
+	border-collapse: collapse;
+}
+.article3 #total td{
+	background-color: #dcdcdc;
+}
+.article3 ol{
+	margin: 20px;
+	padding:10px;
+	/*font-family: "微软雅黑";*/
+	line-height: 30px;
+	color: #000000;
+}
+div .images{
+	margin:20px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.images h2{
+	/*font-family: "微软雅黑";*/
+}
+.images #imagelist{
+	margin:15px 0px 15px 20px;
+	padding: 10px 0px 10px 10px;
+}
+div .content2{
+	margin:20px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+}
+.content2 h1{
+	margin: 5px;
+	padding: 5px;
+	display: block;
+	border-left: 3px solid;
+	border-color: #cbcbcb;
+	/*font-family: "微软雅黑";*/
+	font-size: 20px;
+}
+/*.content2 h2{
+	font-family: "微软雅黑";
+	font-size: 14px;
+
+}*/
+.content2 form{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 15px;
+}
+.content2 form div{
+	display: block;
+}
+.content2 form #mail{
+	display: block;
+}
+#mail label{
+	cursor: default;
+}
+#mail input{
+	padding: 1px 0px;
+}
+#mail .textmail{
+	padding: 10px 0 0 138px;
+	color: #aba6a6;
+
+}
+#password{
+	padding: 10px;
+}
+#repassword{
+	padding: 10px;
+}
+#repassword .textpassword{
+	padding: 10px 0 0 130px;
+	color: #aba6a6;
+}
+.sex{
+	display: block;
+	padding: 10px;
+}
+.area{
+	display: block;
+	padding: 10px;
+}
+.hobby{
+	display: block;
+	padding: 10px;
+}
+.description{
+	position: relative;
+	padding: 10px;
+	left: 40px;
+	top: 0px;
+}
+textarea{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-family: "微软雅黑";
+
+}
+#submit{
+	border:none;
+	border-radius: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 40px;
+	width: 100%;
+	height: 40px;
+	background-color: #3430c7;
+}
+div .footer{
+	background-color: #000000;
+}
+.footer label{
+	color: #ffffff;
+	padding-left: 580px;
+}
