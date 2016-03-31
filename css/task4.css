@@ -1,0 +1,37 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.floater{
+	float: left;
+	height: 50%;
+	margin-bottom: 100px;
+}
+.rectangle{
+	clear: both;
+	margin: 0  auto;
+	position: relative;
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+}
+.circle-left{
+	margin-top: -50px;
+	margin-left: -50px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius:0px 0px 50px 0px;
+}
+.circle-right{
+	margin-top: 150px;
+	margin-right: -50px;
+	float: right;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50px;
+	border-radius: 50px 0px 0px 0px;
+}

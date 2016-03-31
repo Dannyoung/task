@@ -1,0 +1,257 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+/*最外层框架设置*/
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+}
+.footer{
+	float: left;
+	bottom:0px;
+	width: 100%;
+	height: 30px;
+	background-color: #000;
+}
+/*底部内容样式设置*/
+.footer span{
+	margin-top: 5px;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+/*头部内容样式设置*/
+#logo img{
+	margin-top: -5px;
+	margin-left: 20px;
+	width: 120px;
+	height: 67px;
+}
+.header #guilder{
+	margin-top:-40px;
+	margin-right: 10px;
+	float: right;
+}
+.header #guilder li{
+	float: left;
+	margin-left: 20px;
+	color: #999;
+	list-style-type: disc;
+	list-style-position:inside; 
+}
+.header #guilder li a{
+	color: #fff;
+	font-size: 12px;
+}
+#guilder li a:link{
+	text-decoration: none;
+}
+#guilder li a:hover{
+	color: #999;
+}
+/*主要内容样式设置*/
+.wrap-mid{
+	clear: all;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color:#e9e9e9;
+}
+.main{
+	margin: 20px;
+	max-width: 75%;
+}
+.article{
+	padding:20px;
+	background-color: #fff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	font-family: "微软雅黑";
+}
+.article h1{
+	padding-bottom: 20px;
+}
+.article h2{
+	padding-bottom:10px; 
+}
+.article h5{
+	padding-bottom:10px; 
+}
+.article p{
+	text-indent: 2em;
+	line-height: 25px;
+}
+.another-article {
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding: 20px;
+	background-color: #fff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	font-family: "微软雅黑";
+}
+.another-article h1{
+	padding-bottom: 20px;
+}
+.another-article h2{
+	padding-bottom:10px; 
+}
+.another-article h5{
+	padding-bottom:10px; 
+}
+.another-article p{
+	text-indent: 2em;
+	line-height: 25px;
+}
+.another-article li{
+	padding-left: 20px;
+	list-style-type: none;
+}
+.images{
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding: 20px;
+	background-color: #fff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	font-family: "微软雅黑";
+}
+.images ul{
+	overflow: hidden;
+}
+.images li{
+	list-style-type: none;
+	display: block;
+	height: auto;
+	position: relative;
+	float: left;
+}
+#image{
+	/*float: left;*/
+	margin: 20px 10px 10px 10px;
+	border:1px solid #999;
+	width: 125px;
+	height: 125px;
+}
+#image span{
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+}
+#image img{
+	padding-left: 12px;
+	padding-top: 9px;
+	width: 100px;
+	height: 80px;
+}
+.thelast-article{
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding: 20px;
+	background-color: #fff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	font-family: "微软雅黑";
+}
+.thelast-article h1{
+	padding-bottom: 20px;
+}
+.thelast-article h2{
+	padding-bottom:10px; 
+}
+.thelast-article h5{
+	padding-bottom:10px; 
+}
+.thelast-article ol{
+	margin-left: 40px;
+}
+.thelast-article li{
+	padding-bottom: 5px;
+}
+.thelast-article table{
+	/*border:1px solid #999;*/
+	margin: 10px 0px 0px 10px;
+	padding: 0px;
+	border-collapse: collapse;
+	width: 50%;
+	font-size: 14px;
+}
+.thelast-article tr{
+	margin-left: 10px;
+	padding-left: 5px;
+}
+.thelast-article th{
+	padding: 5px;
+	text-align:left;
+	background-color: #000;
+	color: #fff;
+}
+.thelast-article td{
+	padding: 3px;
+}
+.thelast-article #total td{
+	background-color: #999;
+}
+.broadside{
+	position: absolute;
+	float: right;
+	width: 19%;
+	margin-left: 78%;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border-right: 3px outset;
+	border-bottom: 2px outset;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	font-family: "微软雅黑";
+}
+.broadside h1{
+	border-left: 3px solid #cbcbcb;
+}
+.broadside form{
+	margin: 20px;
+}
+.broadside p{
+	/*float: right;*/
+	padding-top: 10px;
+}
+.broadside label{
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+#description-mail{
+	margin-left: 140px;
+	font-size: 12px;
+	color: #999;
+}
+#description-password{
+	margin-left: 110px;
+	font-size: 12px;
+	color: #999;
+}
+.broadside input{
+}
+.broadside button{
+	border:none;
+	border-radius: 10px;
+	color: #ffffff;
+	line-height: 40px;
+	width: 100%;
+	height: 40px;
+	background-color: #3430c7;
+	font-family: "微软雅黑";
+	font-size: 28px;
+}
