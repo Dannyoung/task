@@ -38,13 +38,12 @@
 .header #guilder li{
 	float: left;
 	margin-left: 20px;
-	padding:5px;
 	color: #999;
 	list-style-type: disc;
 	list-style-position:inside; 
 }
 .header #guilder li a{
-	width:100px;
+	padding:5px;
 	color: #fff;
 	font-size: 12px;
 }
