@@ -37,13 +37,14 @@
 }
 .header #guilder li{
 	float: left;
-	width:112px;
 	margin-left: 20px;
+	padding:5px;
 	color: #999;
 	list-style-type: disc;
 	list-style-position:inside; 
 }
 .header #guilder li a{
+	width:112px;
 	color: #fff;
 	font-size: 12px;
 }
