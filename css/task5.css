@@ -37,6 +37,7 @@
 }
 .header #guilder li{
 	float: left;
+	width：112px；
 	margin-left: 20px;
 	color: #999;
 	list-style-type: disc;
