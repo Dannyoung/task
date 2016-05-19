@@ -41,6 +41,7 @@
 	color: #999;
 	list-style-type: disc;
 	list-style-position:inside; 
+	display:inline;
 }
 .header #guilder li a{
 	color: #fff;
