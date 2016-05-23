@@ -57,7 +57,10 @@
 		
 		oBox.style.left = oDiv.offsetLeft + 'px';
 		oBox.style.top = oDiv.offsetTop + 'px';
-		timer=setTimeout("Circle()",60);
+		var timer=setInterval("Circle()",60);
+		var clear = function(){ 
+			clearInterval(timer); //清理时间
+		}
 		
 	}
 	</script>
