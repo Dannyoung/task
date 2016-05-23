@@ -5,7 +5,6 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 <body>
-	<input name="" type="button" value="开始" onclick="SHOW()"/>
 	<div id="div1"></div>
 	<style type="text/css">
 		#div1{ width:20px; height:20px; background:red; position:absolute; left:800px; top:300px;}
@@ -19,26 +18,26 @@
 	
 	var num =180; // 起始角度
 	
-	setInterval(function SHOW(){
+	setInterval(function(){
 		
 		num++;
 		switch (true){
-      case num<270:
-        var r=400;
-        var x=400;
-        var y=400;
-      break;
-      case num<450:
-        var r=175;
-        var x=400;
-        var y=175;
-      break;
-      case num<630:
-        var r=87.5;
-        var x=400;
-        var y=263;
-      break;
-    }
+		      case num<270:
+		        var r=400;
+		        var x=400;
+		        var y=400;
+		      break;
+		      case num<450:
+		        var r=175;
+		        var x=400;
+		        var y=175;
+		      break;
+		      case num<630:
+		        var r=87.5;
+		        var x=400;
+		        var y=263;
+		      break;
+	     }
     //Math.sin( num*Math.PI/180 ) = a/r;
 		//Math.cos( num*Math.PI/180 ) = b/r;
 		
