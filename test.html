@@ -19,7 +19,7 @@
 	
 	var num =180; // 起始角度
 	
-	function Circle(){
+	setInterval(function Circle(){
 		
 		num++;
 		switch (true){
@@ -58,7 +58,7 @@
 		oBox.style.left = oDiv.offsetLeft + 'px';
 		oBox.style.top = oDiv.offsetTop + 'px';
 		
-	}
+	},60);
 	</script>
 </body>
 </html>
