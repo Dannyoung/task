@@ -5,7 +5,6 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 <body>
-	<input name="运行" type="button" value="开始" onclick="Circle()"/>
 	<div id="div1"></div>
 	<style type="text/css">
 		#div1{ width:20px; height:20px; background:red; position:absolute; left:800px; top:300px;}
@@ -19,7 +18,7 @@
 	
 	var num =180; // 起始角度
 	
-	function Circle(){
+	setInterval(function(){
 		
 		num++;
 		switch (true){
@@ -57,14 +56,8 @@
 		
 		oBox.style.left = oDiv.offsetLeft + 'px';
 		oBox.style.top = oDiv.offsetTop + 'px';
-		timer=setTimeout("Circle()",60);
-		if(num>630){
-			r=400;
-			x=400;
-			y=400;
-		}
 		
-	}
+	},60);
 	</script>
 </body>
 </html>
