@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 980px;
+	height: 1386px;
+	background-color: #000;
+}
+#container{
+	margin: 0 44px 0 44px;
+}
+.background{
+	width: 110px;
+	height: 61px;
+	background-color: #d45d5c;
+}
+.contact{
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: #ffffff;
+	font-family: "黑体";
+}
+.datetime{
+	float: right;
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: "黑体";
+}
+hr{
+	width: 892px;
+	size: 2px;
+	color: #938e8c;
+}

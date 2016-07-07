@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微型调查问卷平台</title>
+	<link rel="stylesheet" type="text/css" href="css/task50.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/data50.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="nav">
+			<ul>
+				<li>
+					<a href="index.html" class="logo">
+						调查问卷
+					</a>
+				</li>
+				<li>
+					<a href="index.html" class="nav">
+						我的问卷
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="container">
+		<div id="construct">
+			<input type="button" class="construct" name="new" value="+&nbsp;新建问卷" onclick="changeDisplay()">
+		</div>
+		<div id="edit">
+			<input class="edit_title" type="text" value="这里是标题">
+			<hr class="line">
+			<button class="add_question">+&nbsp;添加问题</button>
+			<hr class="line">
+			<div class="time_choose">
+				<span>问卷截止日期</span>
+				<input type="text"></input>
+				<button class="time_save">保存问卷</button>
+				<button class="time_publish">发布问卷</button>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper_edit">
+		
+	</div>
+</div>
+</body>
+</html>
