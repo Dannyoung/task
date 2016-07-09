@@ -2,4 +2,10 @@
 百度前端技术学院任务
 
 其中任务5还有问题需要修复
-任务6、9、50只完成了一点点
+任务9、50只完成了一点点
+
+任务6终于做完了，主要运用到的知识点是position；
+通过这个练习，更好地实践了position：reletive;和position:absolute;
+其中absolute的位置是对应其父标签，要通过absolute来调整位置时必须设定其父标签的position为reletive；
+而reletive是相对最近一个设有position值的标签的。
+另外在这个练习中还尽量减少了div、span等非语义化标签的运用，大量运用了语义化标签。
