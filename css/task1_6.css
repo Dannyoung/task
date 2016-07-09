@@ -315,7 +315,7 @@ header .date{
 	background-color: #d55d5c;
 	width: 260px;
 	height: 161px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .leftbg h1{
 	margin-left: 10px;
